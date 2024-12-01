@@ -1,0 +1,1 @@
+solving Advent of Code 2024 problems with deno to learn more about it
