@@ -11,12 +11,12 @@ const [firstColumn, secondColumn] = [
 
 // Part 1
 console.log(firstColumn.reduce(
-	(sum, val, i) => sum + Math.abs(val - secondColumn[i]),
+	(acc, val, i) => acc + Math.abs(val - secondColumn[i]),
 	0,
 ));
 
 // Part 2
 console.log(firstColumn.reduce(
-	(sum, val) => sum + val * secondColumn.filter((x) => x === val).length,
+	(acc, val) => acc + val * secondColumn.filter((x) => x === val).length,
 	0,
 ));
