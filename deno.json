@@ -6,5 +6,8 @@
 		"semiColons": true,
 		"singleQuote": true,
 		"proseWrap": "preserve"
+	},
+	"imports": {
+		"@mega/memoize": "jsr:@mega/memoize@^0.1.0"
 	}
 }

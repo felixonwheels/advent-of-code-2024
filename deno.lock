@@ -1,3 +1,16 @@
 {
-  "version": "4"
+  "version": "4",
+  "specifiers": {
+    "jsr:@mega/memoize@0.1": "0.1.0"
+  },
+  "jsr": {
+    "@mega/memoize@0.1.0": {
+      "integrity": "022b2d1b90314aba41c801a437faed3f1033adf17846e5ea0cfc26161d0d5318"
+    }
+  },
+  "workspace": {
+    "dependencies": [
+      "jsr:@mega/memoize@0.1"
+    ]
+  }
 }
