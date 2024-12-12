@@ -11,12 +11,11 @@
 1. Clone this repository
 2. Install dependencies:
 
-    ```shell
-    deno i
-    ```
+   ```shell
+   deno i
+   ```
 
-    > there are none for now but this is just in case I add some later
-
+   > there are none for now but this is just in case I add some later
 
 ## Project Structure
 
@@ -33,11 +32,11 @@
 1. Put your input files as `input.txt` in the according folder [(this repo doesn't include puzzles inputs)](https://adventofcode.com/2024/about#faq_copying).
 2. Run the code with:
 
-    ```shell
-    deno run -A day_XX/main.ts
-    ```
+   ```shell
+   deno run -A day_XX/main.ts
+   ```
 
-    > Don't forget to change XX with the correspondong day, e.g. day_01 / day_25
+   > Don't forget to change XX with the correspondong day, e.g. day_01 / day_25
 
 ## License
 
