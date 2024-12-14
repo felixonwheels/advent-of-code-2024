@@ -6,5 +6,8 @@
 		"semiColons": true,
 		"singleQuote": true,
 		"proseWrap": "preserve"
+	},
+	"imports": {
+		"@ilawy/dpng": "jsr:@ilawy/dpng@^0.7.5"
 	}
 }
